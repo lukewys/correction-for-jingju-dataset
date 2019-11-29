@@ -17,8 +17,6 @@ Data should be organized in following way:
 
 ​    |--[Jingju Scores Dataset](https://zenodo.org/record/3233843)
 
-​    |--JaCRC metadata.xlsx (from "[Jingju a Cappella Recordings Collection](https://zenodo.org/record/3251761)")
-
 After the data is organized, overwrite the files in dataset by "Overwrite Pack".
 
 The problems and its correction is written in Problems.txt, however it is in Chinese.
