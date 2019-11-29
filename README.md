@@ -7,11 +7,16 @@ Data should be organized in following way:
 
 <root_folder_name> (can be arbitrary)
     |--[Part1](https://zenodo.org/record/1323561)
-    |--[Part2](https://zenodo.org/record/1421692)
-    |--[Part3](https://zenodo.org/record/1286350)
-    |--[pycode]( https://github.com/MTG/jingjuPhonemeAnnotation )
-    |--[Jingju Scores Dataset](https://zenodo.org/record/3233843)
-    |--JaCRC metadata.xlsx (from "[Jingju a Cappella Recordings Collection](https://zenodo.org/record/3251761)")
+
+​    |--[Part2](https://zenodo.org/record/1421692)
+
+​    |--[Part3](https://zenodo.org/record/1286350)
+
+​    |--[pycode]( https://github.com/MTG/jingjuPhonemeAnnotation )
+
+​    |--[Jingju Scores Dataset](https://zenodo.org/record/3233843)
+
+​    |--JaCRC metadata.xlsx (from "[Jingju a Cappella Recordings Collection](https://zenodo.org/record/3251761)")
 
 After the data is organized, overwrite the files in dataset by "Overwrite Pack".
 
