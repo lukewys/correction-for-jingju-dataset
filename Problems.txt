@@ -1,0 +1,15 @@
+1. TextGrid解析代码 https://github.com/MTG/jingjuPhonemeAnnotation 里面有一些问题：TextGrid.py 里面的TextGrid第一个示例在xmin=0前（462行）少了一个空行，并且，demo.py中第19行的print dianSilenceList应为print dianList。附件中的代码已纠正错误并转换到Python3，并修改了utf解码问题（在Python3中似乎不需要指定解码格式），但代码格式重排了一下，有可能与原作者的代码格式不符。
+2. Part2中的metadata中一些文件的后缀名为.aif，与数据集中文件不对应。
+3. Part3中如Meng_ting_de-Mu_gui_ying_gua_shuai-dxjky等条目在metadata中标记的是adult，不知是误标记抑或是匿名。
+4. Part3中daspd-Hai_dao_bing-Gui_fei_zui_jiu-nanluo中的TextGrid标注details中少最后两句话"皓月当空，恰便似嫦娥离月宫" 、“奴似嫦娥离月宫”。附件中的文件直接讲"line"中的这两句删除。
+5. 在Part2中20170418TianHao文件夹的lsxp-Jiang_shen_er-San_jia_dian-nacta.TextGrid第1362行中标注的音素为 "eIˆ" （U+02C6）。依据数据集标注规则应为"eI^"（U+005E） 。附件中的文件将  "eIˆ"  改为  "eI^" 。 
+6. 在Part1的lseh-Wei_guo_jia-Hong_yang_dong01-lon.TextGrid中第18行为"  "，而应为""。附件中的文件将此改正。
+
+第二部分的问题：
+1. 京剧曲谱数据集：daeh-YiShaShi-SuoLingNang，一刹时把七情俱已昧尽”——《锁麟囊》（薛湘灵）。该文件名应为"SuoLinNang"
+2. Part3\textgrid\20171217TianHao\lsxp-Wei_guo_jia-Hong_yang_dong-sizhu\teacher.TextGrid：第42行，silence标记为了" "，应为""
+3. Part1\textgrid\laosheng\lsfxp-Yang_si_lang-Si_lang_tan_mu-lon中58行1526行也有上述问题。
+4. 'lsxp-Zhe_yi_feng-Ding_jun_shan-dxjky-sizhu'中的歌词原为'站立在营门高声叫'，应为'站立在营门三军叫'，在teacher的录音中的唱词内容也为后者。 第二句也不一样，其他也有这个问题，待改
+5. Jingju Scores Dataset\MuseScore\lines_data.csv中，375-382行，'daxp-MengTingDe-MuGuiYingGuaShuai.xml'被录入为'daxp-MengTingDe-MuiGuiYingGuaShuai.xml'，其中的"MuGuiYing"录入错为"MuiGuiYing"。scores_data.csv中第42行有同样错误。
+6. 同样在Jingju Scores Dataset\MuseScore\lines_data.csv中，第412行“过往的君子听我言”，起始节拍应为28.625，csv中标位"28,625"，在这行出现了两处该错误。
+7. Part2\textgridDetails\20170418TianHao\lsxp-Jiang_shen_er-San_jia_dian-nacta.TextGrid中第970行音素标注为“p”，应为"c"
