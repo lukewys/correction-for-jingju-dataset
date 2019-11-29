@@ -6,7 +6,8 @@ There are few mistakes in the name and content of the "Jingju a cappella singing
 Data should be organized in following way:
 
 <root_folder_name> (can be arbitrary)
-    |--[Part1](https://zenodo.org/record/1323561)
+
+​    |--[Part1](https://zenodo.org/record/1323561)
 
 ​    |--[Part2](https://zenodo.org/record/1421692)
 
