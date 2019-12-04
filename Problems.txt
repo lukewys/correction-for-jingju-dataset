@@ -19,3 +19,6 @@ Part2:
 -------------------------------------------------------------
 
 Part3:
+
+1. Part1\textgrid\danAll中danbz-Qing_chen_qi-Shi_yu_zhuo-qm中41.35159928072391到41.74924122303772的词语标注（dian, pinyin, dianSilence, utterance) 由 "" 改为 "hu" 
+2. Part1\textgrid\danAll中daspd-Hai_dao_bing-Gui_fei_zui_jiu01-lon.TextGrid中1478行16.458655258536652到16.617680219669566应为""（无声音）
