@@ -1,7 +1,7 @@
 1. TextGrid解析代码 https://github.com/MTG/jingjuPhonemeAnnotation 里面有一些问题：TextGrid.py 里面的TextGrid第一个示例在xmin=0前（462行）少了一个空行，并且，demo.py中第19行的print dianSilenceList应为print dianList。附件中的代码已纠正错误并转换到Python3，并修改了utf解码问题（在Python3中似乎不需要指定解码格式），但代码格式重排了一下，有可能与原作者的代码格式不符。
 2. Part2中的metadata中一些文件的后缀名为.aif，与数据集中文件不对应。
 3. Part3中如Meng_ting_de-Mu_gui_ying_gua_shuai-dxjky等条目在metadata中标记的是adult，不知是误标记抑或是匿名。
-4. Part3中daspd-Hai_dao_bing-Gui_fei_zui_jiu-nanluo中的TextGrid标注details中少最后两句话"皓月当空，恰便似嫦娥离月宫" 、“奴似嫦娥离月宫”。附件中的文件直接讲"line"中的这两句删除。
+4. Part3中daspd-Hai_dao_bing-Gui_fei_zui_jiu-nanluo中的TextGrid标注details中少最后两句话"皓月当空，恰便似嫦娥离月宫" 、“奴似嫦娥离月宫”。附件中的文件直接将"line"中的这两句删除。
 5. 在Part2中20170418TianHao文件夹的lsxp-Jiang_shen_er-San_jia_dian-nacta.TextGrid第1362行中标注的音素为 "eIˆ" （U+02C6）。依据数据集标注规则应为"eI^"（U+005E） 。附件中的文件将  "eIˆ"  改为  "eI^" 。 
 6. 在Part1的lseh-Wei_guo_jia-Hong_yang_dong01-lon.TextGrid中第18行为"  "，而应为""。附件中的文件将此改正。
 
@@ -22,3 +22,7 @@ Part3:
 
 1. Part1\textgrid\danAll中danbz-Qing_chen_qi-Shi_yu_zhuo-qm中41.35159928072391到41.74924122303772的词语标注（dian, pinyin, dianSilence, utterance) 由 "" 改为 "hu" 
 2. Part1\textgrid\danAll中daspd-Hai_dao_bing-Gui_fei_zui_jiu01-lon.TextGrid中1478行16.458655258536652到16.617680219669566应为""（无声音）
+
+-------------------------------------------------------------
+2020.2.29 update：
+1. Part2中daspd-Hai_dao_bing-Gui_fei_zui-nacta中的TextGrid标注details中少最后两句话"皓月当空，恰便似嫦娥离月宫" 、“奴似嫦娥离月宫”。附件中的文件直接讲将line"中的这两句删除。
