@@ -26,3 +26,4 @@ Part3:
 -------------------------------------------------------------
 2020.2.29 update：
 1. Part2中daspd-Hai_dao_bing-Gui_fei_zui-nacta中的TextGrid标注details中少最后两句话"皓月当空，恰便似嫦娥离月宫" 、“奴似嫦娥离月宫”。附件中的文件直接讲将line"中的这两句删除。
+2. Part2中lseh-Yi_lun_ming-Zhuo_fang_cao-ustb.TextGrid中最后一个字应是"ya"，错误标记为了"s"
